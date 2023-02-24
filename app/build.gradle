@@ -28,7 +28,7 @@ android {
 
         fdroid {
             dimension "version"
-            applicationId "com.aefyr.sai.fdroid"
+            applicationId "com.aefyr.sai.fdroid.skn"
             buildConfigField "int", "DEFAULT_THEME", "6"
             buildConfigField "int", "DEFAULT_DARK_THEME", "11"
             buildConfigField "boolean", "HIDE_DONATE_BUTTON", "false"
