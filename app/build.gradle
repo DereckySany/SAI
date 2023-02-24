@@ -36,7 +36,6 @@ android {
     }
 
     compileOptions {
-        coreLibraryDesugaringEnabled true
         sourceCompatibility JavaVersion.VERSION_11
         targetCompatibility JavaVersion.VERSION_11
     }
@@ -76,7 +75,6 @@ dependencies {
     implementation "rikka.shizuku:provider:$shizuku_version"
 
     debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.3'
-    coreLibraryDesugaring "com.android.tools:desugar_jdk_libs:1.1.5"
 }
 
 if (getGradle().getStartParameter().getTaskRequests().toString().contains("Normal")){
